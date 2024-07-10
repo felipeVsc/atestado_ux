@@ -1,0 +1,65 @@
+POST https://example.com/comments HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+###
+
+GET http://127.0.0.1:5000/paciente/all/281 HTTP/1.1
+content-type: application/json
+
+{
+}
+
+### 
+
+POST http://127.0.0.1:5000/likert HTTP/1.1
+content-type: application/json
+
+{
+    "paciente_id":120,
+    "pontos_positivos":"teste likert",
+    "pontos_negativos":"teste likert2",
+    "feedback":"teste likert3",
+    "q1":"asd",
+    "q2":"asd",
+    "q3":"asd",
+    "q4":"asd",
+    "q5":"asd",
+    "q6":"asd",
+    "q7":"asd",
+    "q8":"asd",
+    "q9":"asd"
+}
+
+###
+
+GET http://127.0.0.1:5000/causa_morte/190 HTTP/1.1
+content-type: application/json
+
+{
+}
+
+
+### 
+
+POST http://127.0.0.1:5000/paciente HTTP/1.1
+content-type: application/json
+
+{
+"tipo_morte":"fetal"
+}
+
+
+### 
+GET http://127.0.0.1:5000/paciente/all/202 HTTP/1.1
+content-type: application/json
+
+{
+}
+
+
+### 

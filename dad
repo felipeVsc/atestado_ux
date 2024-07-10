@@ -1,0 +1,89 @@
+[33mcommit 199d822cd140da357381d572b0aa5406e5c91db4[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/ant_design_single_form[m[33m, [m[1;31morigin/feature/ant_design_single_form[m[33m)[m
+Author: Felipe Vasconcelos <felipevasconceloslpz@gmail.com>
+Date:   Wed Aug 30 00:37:00 2023 -0300
+
+    changing dates locale to ptbr and getting values from input field
+
+[33mcommit b2f171e6e76ed613d34ee688377bd12bac4dadc0[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Aug 23 01:03:13 2023 -0300
+
+    updating for formik
+
+[33mcommit a657d744fb0c199e3ae7d4b1191b3dd317b84dce[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Aug 16 10:50:40 2023 -0300
+
+    att
+
+[33mcommit cf9402d2efa34f2baa3c2e199a9f1bbd7152e088[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Aug 16 01:25:53 2023 -0300
+
+    more stuff
+
+[33mcommit 80e30f8e0f0379f4b6ad13a5e5b8dc419a3ec0c0[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Aug 2 10:31:10 2023 -0300
+
+    adding stuff
+
+[33mcommit e1cf58a0967d3ec89a02c885c4484b8f375fdd59[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Tue Aug 1 01:24:22 2023 -0300
+
+    boilerplate novo bloco
+
+[33mcommit cb5b7938c9592bc8353dc7e32e46c1465ac1938d[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Sun Jul 30 23:05:55 2023 -0300
+
+    bloco 3
+
+[33mcommit 5fc6e983dda5b01157d3742f5c9691258f15168d[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Sun Jul 30 15:41:07 2023 -0300
+
+    checkbox and select props
+
+[33mcommit 8fb3f41f233bb46b146e4ad2750c2cb46d7bee96[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Jul 26 10:24:23 2023 -0300
+
+    changing from "secao" to "bloco"
+
+[33mcommit c419b9dbb0ff508ab2d99a2f7d167d98be66eca5[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Jul 26 00:40:45 2023 -0300
+
+    more stuff
+
+[33mcommit 436dfc00407f41c06925aac059699ce329d1f920[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Wed Jul 26 00:32:18 2023 -0300
+
+    stuff
+
+[33mcommit 1ffb3b29e1c5b16d3af1a645112912b7ed357102[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Tue Jul 25 22:47:58 2023 -0300
+
+    starting integrations
+
+[33mcommit 23b8c053c7e973efeadabec45d78c9a8579121fc[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Tue Jul 25 22:30:55 2023 -0300
+
+    styling lots of stuff
+
+[33mcommit 50e55f824fe012d1c3b230b04cb224b323db0d40[m
+Author: Felipe <felipevasconceloslpz@gmail.com>
+Date:   Tue Jul 25 00:28:03 2023 -0300
+
+    starting more things datepicker, select and others stuff. still needs to organize
+
+[33mcommit 60df6e65707c13b05f886a118e1b05fddb2fa2f5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mmaster[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: PedroAugustoACT <pedro.augusto.dr11@gmail.com>
+Date:   Wed Jul 5 09:44:46 2023 -0300
+
+    Initialize project using Create React App

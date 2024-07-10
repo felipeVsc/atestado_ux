@@ -1,0 +1,46 @@
+{"tipoMorte": "Fetal",
+"dataObito": "10/04/2022",
+"horaObito": "15:20",
+"naturalidade": "Brasil",
+"sexo": "Masculino",
+"nomePai": "Joao Santos",
+"nomeMae": "Maria Aparecida",
+
+
+"cepFalecido": "12345678",
+"logradouroFalecido": "Rua Fernandes Lima",
+"numeroFalecido": "23",
+"ufFalecido": "Alagoas",
+"municipioFalecido": "Maceió",
+"bairroFalecido": "Centro",
+"obitoLocal": "Outro estab. de saúde",
+"estabelecimentoObito": "UPA Jacintinho",
+"cepObito": "12345678",
+"logradouroObito": "Rua Brasil",
+"numObito": "12",
+"ufObito": "Alagoas",
+"municipioObito": "Maceió",
+"bairroObito": "Centro",
+"idadeMaeInfo": "54",
+"escolaridadeMaeInfo": "Ignorado",
+"cboMaeInfo": "Advogada",
+"numFilhoVivosMaeInfo": "1",
+"numFilhoAbortoMaeInfo": "1",
+"numSemGestMaeInfo": "Ignorado",
+"tipoGravidezMaeInfo": "Ignorado",
+"tipoPartoMae": "Ignorado",
+"tipoMortePartoMae": "Ignorado",
+"pesoAoNascerMae": "Ignorado",
+"numDeclaracaoNascidoVivo": "Ignorado",
+"obitoMulherFertil": "Ignorado",
+"assistenciaObito": "Ignorado",
+"diagnosticoNecropsia": "Não"}
+
+
+Idade da mãe
+Ocupação Habitual
+Número de filhos - Nascidos vivos
+Tipo de Gravidez
+Tipo de parto
+Morte em relação ao parto
+Peso ao nascer
