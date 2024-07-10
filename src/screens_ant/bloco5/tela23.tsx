@@ -42,7 +42,7 @@ function Tela23() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:5000/causa_morte/${userData.bloco5}`
+          `http://159.223.108.189:5000/causa_morte/${userData.bloco5}`
         );
         const data = response.data;
         console.log(data);
@@ -67,7 +67,7 @@ function Tela23() {
             initialValues={{}}
             onSubmit={async (values) => {
 
-              const apiUrl = "http://127.0.0.1:5000/causa_morte"; // Substitua pelo URL da sua API
+              const apiUrl = "http://159.223.108.189:5000/causa_morte"; // Substitua pelo URL da sua API
 
               const dataToSend = {
                 bloco5_id: formData.bloco5,

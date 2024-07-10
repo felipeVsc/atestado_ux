@@ -31,7 +31,7 @@ function Tela21() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:5000/bloco5/${userData.bloco5}`
+          `http://159.223.108.189:5000/bloco5/${userData.bloco5}`
         );
         const data = response.data;
         setDiagnosticoConfirmado(data.diagnostico_confirmado);
@@ -52,7 +52,7 @@ function Tela21() {
           <Formik
             initialValues={{}}
             onSubmit={async (values) => {
-              const apiUrl = "http://127.0.0.1:5000/bloco5"; // Substitua pelo URL da sua API
+              const apiUrl = "http://159.223.108.189:5000/bloco5"; // Substitua pelo URL da sua API
 
               const dataToSend = {
                 bloco5_id: formData.bloco5,

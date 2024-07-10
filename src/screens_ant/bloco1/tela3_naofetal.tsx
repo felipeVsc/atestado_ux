@@ -41,7 +41,7 @@ function Tela3_nf() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://127.0.0.1:5000/bloco1/${userData.bloco1}`
+          `http://159.223.108.189:5000/bloco1/${userData.bloco1}`
         );
         const data = response.data;
         setNome(data.nome_falecido);
@@ -102,7 +102,7 @@ function Tela3_nf() {
             onSubmit={async () => {
               const valid = validacoes(nome, cartaoSus);
               if (valid == "OK") {
-                const apiUrl = "http://127.0.0.1:5000/bloco1"; // Substitua pelo URL da sua API
+                const apiUrl = "http://159.223.108.189:5000/bloco1"; // Substitua pelo URL da sua API
                 const idade = dayjs(dataObito).diff(
                   dayjs(dataNascimento),
                   "day"

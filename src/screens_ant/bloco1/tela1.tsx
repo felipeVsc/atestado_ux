@@ -44,7 +44,7 @@ function Tela1() {
   const fetchInitialValues = () => {
     if (userData.paciente_id) {
       axios
-        .get(`http://127.0.0.1:5000/paciente/${userData.paciente_id}`)
+        .get(`http://159.223.108.189:5000/paciente/${userData.paciente_id}`)
         .then((response) => {
           const receivedData = response.data;
           const initialValuesFromPaciente: SectionPacienteForm = {
@@ -93,7 +93,7 @@ function Tela1() {
               console.log("changing");
               console.log(userData);
 
-              const bloco1ApiURL = "http://127.0.0.1:5000/paciente/tipo";
+              const bloco1ApiURL = "http://159.223.108.189:5000/paciente/tipo";
 
               axios
                 .post(bloco1ApiURL,{paciente_id:userData.paciente_id, tipo_morte: picked,medico_id:medico})
@@ -102,7 +102,7 @@ function Tela1() {
                   console.error("Erro ao enviar a requisição:", error.message)
                 );
 
-                const bloco6ApiURL = "http://127.0.0.1:5000/bloco6";
+                const bloco6ApiURL = "http://159.223.108.189:5000/bloco6";
 
                 axios
                   .post(bloco6ApiURL,{bloco6_id:userData.bloco6, paciente_id: userData.paciente_id, medico_id: userData.medico_id})
