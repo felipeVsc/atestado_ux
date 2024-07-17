@@ -23,7 +23,7 @@ export const Section4Styles = {
     } ,
     titleContainer: {
       display: "flex",
-      justifyContent: "start",
+      justifyContent: "center",
       alignItems: "center",
       marginTop: "3rem",
       borderBottom: "1px solid #444",
@@ -33,7 +33,6 @@ export const Section4Styles = {
       padding: "0px 4rem",
       color: "black",
       fontSize: "1.25rem",
-      margin: 0,
     },
     selectsContainer: {
       display: 'flex',
@@ -41,7 +40,7 @@ export const Section4Styles = {
       alignItems: 'center',
       flexDirection: 'column',
       marginTop: '2rem',
-    }as CSSProperties,
+    },
     inputsRow1:{
       display: 'flex',
       justifyContent: 'center',

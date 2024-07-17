@@ -39,6 +39,7 @@ const styles: { [key: string]: CSSProperties } = {
     alignItems: "center",
     justifyContent: "center",
     minHeight: "100vh",
+    width: "80rem"
   },
   centeredContainer: {
     textAlign: "center",

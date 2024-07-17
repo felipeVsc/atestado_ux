@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./bloco1/tela2.css";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Section4Styles } from "./bloco1/styles";
-// import AppDiv from "../components/AppDiv";
 import AppDivClean from "../components/AppDivClean";
-import axios, { AxiosResponse } from "axios";
-import { Space, Table, Tag } from "antd";
+import axios from "axios";
+import { Space } from "antd";
 import type { ColumnsType } from "antd/es/table";
 import { Button } from 'antd';
 import { useSession } from "./session";
@@ -105,15 +104,16 @@ function TelaListagem() {
     };
 
     fetchData();
-  }, []); // O segundo argumento [] faz com que useEffect seja chamado apenas uma vez, semelhante ao componentDidMount
+  }, []);
 
   return (
     <div style={Section4Styles.main}>
       <div style={Section4Styles.mainContainer}>
-        <AppDivClean tituloDoBloco="Listagem de Declaração de Óbito">
+        <AppDivClean tituloDoBloco="Sistema de Declaração de Óbito">
           <br></br>
-          <p>Deseja criar uma nova Declaração?   <Button type="primary" onClick={() => navigateToPage('/tela_form')}> Criar declaração</Button></p>
-          <Table columns={columns} dataSource={data} />
+          <p style={{fontSize: "1.2rem"}}>Bem vindo(a) ao sistema informatizado de preenchimento de Declaração de Óbito!</p>
+          <p style={{fontSize: "1.2rem"}}>Clique no botão a seguir e escolha qual das versões você deseja utilizar</p>
+          <Button type="primary" onClick={() => navigateToPage('/tela_form')}  style={{marginBottom: '2rem', marginTop: "1rem"}}> Criar declaração</Button>
         </AppDivClean>
       </div>
     </div>
