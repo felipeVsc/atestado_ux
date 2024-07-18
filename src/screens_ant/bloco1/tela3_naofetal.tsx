@@ -59,7 +59,6 @@ function Tela3_nf() {
 
   const handleDataChange = (
     novaData: dayjs.Dayjs | null,
-    dateString: string
   ) => {
     const diaMesAno = dayjs(novaData).format("YYYY-MM-DD");
     setDataNascimento(diaMesAno);

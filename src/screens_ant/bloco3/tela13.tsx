@@ -34,7 +34,7 @@ function Tela13() {
 
   const [componentDisabled, setComponentDisabled] = useState<boolean>(false);
   const [nomeLogradouro, setNomeLogradouro] = useState<string>(
-    addressData.logradouro
+    addressData.logradouro ?? ""
   );
   const [numeroLogradouro, setNumeroLogradouro] = useState<string>("");
   const [ignorarNumero, setIgnorarNumero] = useState<boolean>(false);
