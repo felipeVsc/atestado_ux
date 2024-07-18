@@ -29,8 +29,8 @@ function Tela14() {
   const addressData = userData.dados_endereco_hosp;
   const formData = userData;
 
-  const [ufFalecido, setUFFalecido] = useState<string>(addressData.uf || "");
-  const [munFalecido, setMunFalecido] = useState<string>(addressData.municipio || "");
+  const [ufFalecido, setUFFalecido] = useState<string>(addressData.uf ?? "");
+  const [munFalecido, setMunFalecido] = useState<string>(addressData.municipio ?? "");
   const [bairroFalecido, setBairroFalecido] = useState<string>(
     addressData.bairro
   );

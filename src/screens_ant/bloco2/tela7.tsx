@@ -35,7 +35,7 @@ function Tela7() {
   const formData = userData;
   const [componentDisabled, setComponentDisabled] = useState<boolean>(false);
   console.log(addressData)  ;
-  const [nomeLogradouro, setNomeLogradouro] = useState<string>(addressData.logradouro);
+  const [nomeLogradouro, setNomeLogradouro] = useState<string>(addressData.logradouro ?? "");
   const [ignorarNumero, setIgnorarNumero] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
 

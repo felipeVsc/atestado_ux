@@ -29,8 +29,8 @@ function Tela8() {
   const { userData } = useSession();
   const addressData = userData.dados_endereco_paciente;
   const formData = userData;
-  const [ufFalecido, setUFFalecido] = useState<string>(addressData.uf);
-  const [munFalecido, setMunFalecido] = useState<string>(addressData.localidade);
+  const [ufFalecido, setUFFalecido] = useState<string>(addressData.uf ?? "");
+  const [munFalecido, setMunFalecido] = useState<string>(addressData.localidade ?? "");
   const [bairroFalecido, setBairroFalecido] = useState<string>(
     addressData.bairro
   );

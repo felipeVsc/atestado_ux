@@ -45,7 +45,6 @@ function Tela2() {
 
   const handleDataChange = (
     novaData: dayjs.Dayjs | null,
-    dateString: string
   ) => {
     const diaMesAno = dayjs(novaData).format("YYYY-MM-DD");
     setDataObito(diaMesAno);
