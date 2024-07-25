@@ -413,33 +413,33 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="27"
                   title="Idade"
-                  content={dadosPaciente.bloco4.idade_mae === null ? "Ignorado" : dadosPaciente.bloco4.idade_mae }
+                  content={dadosPaciente.bloco4.idade_mae === null ? "" : dadosPaciente.bloco4.idade_mae }
                 />
               </div>
               <div style={rowOf("70%")}>
                 <PreviewTextOutput
                   formIndex="28"
                   title="Escolaridade"
-                  content={dadosPaciente.bloco4.escolaridade_mae === null ? "Ignorado" : dadosPaciente.bloco4.escolaridade_mae}
+                  content={dadosPaciente.bloco4.escolaridade_mae === null ? "" : dadosPaciente.bloco4.escolaridade_mae}
                 />
               </div>
             </div>
             <div style={rowOf("50%")}>
               <PreviewTextOutput
                 title="Série"
-                content={dadosPaciente.bloco4.serie_mae === null ? "Ignorado" : dadosPaciente.bloco4.serie_mae}
+                content={dadosPaciente.bloco4.serie_mae === null ? "" : dadosPaciente.bloco4.serie_mae}
               />
             </div>
             <div style={rowOf("70%")}>
               <PreviewTextOutput
                 formIndex="29"
                 title="Ocupação Habitual"
-                content={dadosPaciente.bloco4.ocupacao_mae === null ? "Ignorado" : dadosPaciente.bloco4.ocupacao_mae}
+                content={dadosPaciente.bloco4.ocupacao_mae === null ? "" : dadosPaciente.bloco4.ocupacao_mae}
               />
               <div style={rowOf("30%")}>
                 <PreviewTextOutput
                   title="Código CBO"
-                  content={dadosPaciente.bloco4.codigo_cbo_mae === null ? "Ignorado" : dadosPaciente.bloco4.codigo_cbo_mae}
+                  content={dadosPaciente.bloco4.codigo_cbo_mae === null ? "" : dadosPaciente.bloco4.codigo_cbo_mae}
                   last={true}
                 />
               </div>
@@ -451,7 +451,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="30"
                   title="Filhos Tidos Vivos"
-                  content={dadosPaciente.bloco4.num_filhos_tidos === null ? "Ignorado" :dadosPaciente.bloco4.num_filhos_tidos}
+                  content={dadosPaciente.bloco4.num_filhos_tidos === null ? "" :dadosPaciente.bloco4.num_filhos_tidos}
                   last={true}
                 />
               </div>
@@ -459,7 +459,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="30"
                   title="Filhos Perdas Fetais/Aborto"
-                  content={dadosPaciente.bloco4.morte_parto === null ? "Ignorado" :dadosPaciente.bloco4.morte_parto}
+                  content={dadosPaciente.bloco4.morte_parto === null ? "" :dadosPaciente.bloco4.morte_parto}
                   last={true}
                 />
               </div>
@@ -467,7 +467,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="31"
                   title="Nº Semanas Gestação"
-                  content={dadosPaciente.bloco4.num_semanas_gestacao === null ? "Ignorado" :dadosPaciente.bloco4.num_semanas_gestacao}
+                  content={dadosPaciente.bloco4.num_semanas_gestacao === null ? "" :dadosPaciente.bloco4.num_semanas_gestacao}
                   last={true}
                 />
               </div>
@@ -475,7 +475,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="32"
                   title="Tipo de Gravidez"
-                  content={dadosPaciente.bloco4.tipo_gravidez === null ? "Ignorado" :dadosPaciente.bloco4.tipo_gravidez}
+                  content={dadosPaciente.bloco4.tipo_gravidez === null ? "" :dadosPaciente.bloco4.tipo_gravidez}
                   last={true}
                 />
               </div>
@@ -483,7 +483,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="33"
                   title="Tipo de Parto"
-                  content={dadosPaciente.bloco4.tipo_parto === null ? "Ignorado" :dadosPaciente.bloco4.tipo_parto}
+                  content={dadosPaciente.bloco4.tipo_parto === null ? "" :dadosPaciente.bloco4.tipo_parto}
                   last={true}
                 />
               </div>
@@ -491,7 +491,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="34"
                   title="Morte em Relação ao Parto"
-                  content={dadosPaciente.bloco4.relacao_morte_parto === null ? "Ignorado" :dadosPaciente.bloco4.relacao_morte_parto}
+                  content={dadosPaciente.bloco4.relacao_morte_parto === null ? "" :dadosPaciente.bloco4.relacao_morte_parto}
                   last={true}
                 />
               </div>
@@ -499,7 +499,7 @@ export default function Preview() {
                 <PreviewTextOutput
                   formIndex="35"
                   title="Peso ao Nascer"
-                  content={dadosPaciente.bloco4.peso_ao_nascer === null ? "Ignorado" : dadosPaciente.bloco4.peso_ao_nascer}
+                  content={dadosPaciente.bloco4.peso_ao_nascer === null ? "" : dadosPaciente.bloco4.peso_ao_nascer}
                   last={true}
                 />
               </div>
@@ -508,7 +508,7 @@ export default function Preview() {
               <PreviewTextOutput
                 formIndex="36"
                 title="Nº de Declaração Nascido Vivo"
-                content={dadosPaciente.bloco4.num_declaracao_nascido_vivo === null ? "Ignorado" :dadosPaciente.bloco4.num_declaracao_nascido_vivo}
+                content={dadosPaciente.bloco4.num_declaracao_nascido_vivo === null ? "" :dadosPaciente.bloco4.num_declaracao_nascido_vivo}
                 last={true}
               />
             </div>
@@ -720,17 +720,17 @@ export default function Preview() {
               <PreviewTextOutput
                 formIndex="50"
                 title="Nome do médico"
-                content=""
+                content="Dr Médico"
               />
             </div>
             <div style={rowOf("35%")}>
-              <PreviewTextOutput formIndex="51" title="CRM" content="" />
+              <PreviewTextOutput formIndex="51" title="CRM" content="000" />
             </div>
             <div style={rowOf("35%")}>
               <PreviewTextOutput
                 formIndex="52"
                 title="Atendeu ao falecido?"
-                content="IML"
+                content="Assistente"
                 last={true}
               />
             </div>
@@ -753,7 +753,7 @@ export default function Preview() {
                 />
               </div>
               <div style={rowOf("80%")}>
-                <PreviewTextOutput title="Assinatura" content="" last={true} />
+                <PreviewTextOutput title="Assinatura" content="Assinatura do Médico" last={true} />
               </div>
             </div>
           </div>
