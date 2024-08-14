@@ -71,7 +71,7 @@ function Tela4() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://159.223.108.189:5000/bloco1/${userData.bloco1}`
+          `http://143.198.163.134:5000/bloco1/${userData.bloco1}`
         );
         const data = response.data;
         setNomeMae(data.nome_mae_falecido);
@@ -135,7 +135,7 @@ function Tela4() {
 
               const validacao = validacoes(valores);
               if (validacao == "OK") {
-                const apiUrl = "http://159.223.108.189:5000/bloco1"; // Substitua pelo URL da sua API
+                const apiUrl = "http://143.198.163.134:5000/bloco1"; // Substitua pelo URL da sua API
 
                 // TODO substituir isso aqui
                 const dataToSend = {

@@ -14,7 +14,7 @@ const Login = () => {
   const onFinish = async (values: { cpf: string; password: string }) => {
     setLoading(true);
     try {
-      const response = await axios.post("http://159.223.108.189:5000/login", {
+      const response = await axios.post("http://143.198.163.134:5000/login", {
         cpf: values.cpf,
         password: values.password
       });

@@ -43,7 +43,7 @@ function Tela7() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://159.223.108.189:5000/bloco2/${userData.bloco2}`
+          `http://143.198.163.134:5000/bloco2/${userData.bloco2}`
         );
         const data = response.data;
         if (addressData.logradouro === null){
@@ -96,7 +96,7 @@ function Tela7() {
             onSubmit={async (values) => {
               const valid = validacoes(nomeLogradouro, numeroLogradouro);
               if (valid == "OK") {
-                const apiUrl = "http://159.223.108.189:5000/bloco2"; // Substitua pelo URL da sua API
+                const apiUrl = "http://143.198.163.134:5000/bloco2"; // Substitua pelo URL da sua API
                 
                 const dataToSend = {
                   bloco2_id: formData.bloco2,

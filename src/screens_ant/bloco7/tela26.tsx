@@ -28,7 +28,7 @@ function Tela26() {
     console.log(userData);
     if (userData.paciente_id) {
       axios
-        .get(`http://159.223.108.189:5000/bloco7/${userData.bloco7}`)
+        .get(`http://143.198.163.134:5000/bloco7/${userData.bloco7}`)
         .then((response) => {
           const receivedData = response.data;
           console.log("DATA: ", receivedData);
@@ -53,7 +53,7 @@ function Tela26() {
           <Formik
             initialValues={{}}
             onSubmit={async (values) => {
-              const apiUrl = "http://159.223.108.189:5000/bloco7"; // Substitua pelo URL da sua API
+              const apiUrl = "http://143.198.163.134:5000/bloco7"; // Substitua pelo URL da sua API
 
               const dataToSend = {
                 bloco7_id: formData.bloco7,

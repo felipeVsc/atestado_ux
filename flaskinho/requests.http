@@ -8,7 +8,7 @@ content-type: application/json
 
 ###
 
-GET http://159.223.108.189:5000/paciente/all/281 HTTP/1.1
+GET http://143.198.163.134:5000/paciente/all/281 HTTP/1.1
 content-type: application/json
 
 {
@@ -16,7 +16,7 @@ content-type: application/json
 
 ### 
 
-POST http://159.223.108.189:5000/likert HTTP/1.1
+POST http://143.198.163.134:5000/likert HTTP/1.1
 content-type: application/json
 
 {
@@ -37,7 +37,7 @@ content-type: application/json
 
 ###
 
-GET http://159.223.108.189:5000/causa_morte/190 HTTP/1.1
+GET http://143.198.163.134:5000/causa_morte/190 HTTP/1.1
 content-type: application/json
 
 {
@@ -46,7 +46,7 @@ content-type: application/json
 
 ### 
 
-POST http://159.223.108.189:5000/paciente HTTP/1.1
+POST http://143.198.163.134:5000/paciente HTTP/1.1
 content-type: application/json
 
 {
@@ -55,7 +55,7 @@ content-type: application/json
 
 
 ### 
-GET http://159.223.108.189:5000/paciente/all/202 HTTP/1.1
+GET http://143.198.163.134:5000/paciente/all/202 HTTP/1.1
 content-type: application/json
 
 {

@@ -60,7 +60,7 @@ function Tela2() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://159.223.108.189:5000/bloco1/${userData.bloco1}`
+          `http://143.198.163.134:5000/bloco1/${userData.bloco1}`
         );
         const data = response.data;
         
@@ -109,7 +109,7 @@ function Tela2() {
               const valid = validacoes(dataObito, horaObito);
 
               if (valid) {
-                const apiUrl = "http://159.223.108.189:5000/bloco1";
+                const apiUrl = "http://143.198.163.134:5000/bloco1";
                 const dataToSend = {
                   bloco1_id: userData.bloco1,
                   data_do_obito: dataObito,

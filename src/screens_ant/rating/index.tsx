@@ -75,7 +75,7 @@ export default function SectionRating({
 
   function sendData() {
     // axios para enviar os dados e pegar o userid pela sessao
-    const apiUrl = "http://159.223.108.189:5000/likert"; // Substitua pelo URL da sua API
+    const apiUrl = "http://143.198.163.134:5000/likert"; // Substitua pelo URL da sua API
 
     const dataToSend = {
       paciente_id: userData.paciente_id,

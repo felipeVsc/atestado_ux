@@ -20,7 +20,7 @@ export default function Preview() {
   //     try {
   //       console.log(userData);
   //       const response = await axios.get(
-  //         `http://159.223.108.189:5000/paciente/all/${userData.paciente_id}`
+  //         `http://143.198.163.134:5000/paciente/all/${userData.paciente_id}`
   //       );
   //       console.log(response.data);
   //       setDadosPaciente(response.data);
@@ -41,7 +41,7 @@ export default function Preview() {
       console.log(userData);
       try {
         const response = await axios.get(
-          `http://159.223.108.189:5000/paciente/all/${userData.paciente_id}`
+          `http://143.198.163.134:5000/paciente/all/${userData.paciente_id}`
         );
         const data = response.data;
         console.log("Data Resposta");

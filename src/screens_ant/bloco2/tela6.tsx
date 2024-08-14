@@ -98,7 +98,7 @@ function Tela6() {
   }
 
   async function enviarDados(data: any) {
-    const apiUrl = "http://159.223.108.189:5000/bloco2"; // Substitua pelo URL da sua API
+    const apiUrl = "http://143.198.163.134:5000/bloco2"; // Substitua pelo URL da sua API
     const dataToSend = {
       bloco2_id: formData.bloco2,
       cep_residencia: cep,
@@ -117,7 +117,7 @@ function Tela6() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://159.223.108.189:5000/bloco2/${userData.bloco2}`
+          `http://143.198.163.134:5000/bloco2/${userData.bloco2}`
         );
         const data = response.data;
         setCEP(data.cep_residencia);
