@@ -80,17 +80,7 @@ const PickForm = () => {
           initialValues={{ remember: true }}
         >
           <Form.Item>
-            <Button
-              type="primary"
-              htmlType="submit"
-              className="login-form-button"
-              block
-              href="http://143.198.163.134:4000/" //Colocar rota da versão do Pedro
-            >
-              Simulador de DO original
-            </Button>
-            <div style={{ paddingTop: "10px" }}>
-              <Button
+          <Button
                 type="primary"
                 htmlType="submit"
                 className="login-form-button"
@@ -100,6 +90,18 @@ const PickForm = () => {
               >
                 Versão UX
               </Button>
+
+            
+            <div style={{ paddingTop: "10px" }}>
+            <Button
+              type="primary"
+              htmlType="submit"
+              className="login-form-button"
+              block
+              href="http://143.198.163.134:4000/" //Colocar rota da versão do Pedro
+            >
+              Simulador de DO original
+            </Button>
             </div>
           </Form.Item>
         </Form>
