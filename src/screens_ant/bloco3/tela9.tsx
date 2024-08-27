@@ -60,7 +60,7 @@ function Tela9() {
                 console.log(valid);
                 if (obitoNesteHospital == "sim") {
                   // aqui vai pro banco as infos prontas ja
-                const apiUrl = 'http://143.198.163.134:5000/bloco3'; 
+                const apiUrl = 'http://206.189.235.2:5000/bloco3'; 
                 
                 const dataToSend = {
                   bloco3_id:formData.bloco3,

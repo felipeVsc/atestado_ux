@@ -41,7 +41,7 @@ function Tela17() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://143.198.163.134:5000/bloco4/${userData.bloco4}`
+          `http://206.189.235.2:5000/bloco4/${userData.bloco4}`
         );
         const data = response.data;
         setNumeroSemanasGestacao(data.num_semanas_gestacao);
@@ -95,7 +95,7 @@ function Tela17() {
                 tipoGravidezMaeFalecido
               );
               if (valid == "OK") {
-                const apiUrl = "http://143.198.163.134:5000/bloco4"; // Substitua pelo URL da sua API
+                const apiUrl = "http://206.189.235.2:5000/bloco4"; // Substitua pelo URL da sua API
 
                 const dataToSend = {
                   bloco4_id: formData.bloco4,

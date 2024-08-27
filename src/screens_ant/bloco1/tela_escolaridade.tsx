@@ -59,7 +59,7 @@ function TelaEscolaridade() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://143.198.163.134:5000/bloco1/${userData.bloco1}`
+          `http://206.189.235.2:5000/bloco1/${userData.bloco1}`
         );
         const data = response.data;
         setEscolaridadeFalecido(data.escolaridade);
@@ -114,7 +114,7 @@ function TelaEscolaridade() {
                 ocupacaoFalecido
               );
               if (valid == "OK") {
-                const apiUrl = "http://143.198.163.134:5000/bloco1"; // Substitua pelo URL da sua API
+                const apiUrl = "http://206.189.235.2:5000/bloco1"; // Substitua pelo URL da sua API
 
                 const dataToSend = {
                   bloco1_id: formData.bloco1,

@@ -41,7 +41,7 @@ function Tela27() {
 
       
       axios
-        .get(`http://143.198.163.134:5000/bloco7/${userData.bloco7}`)
+        .get(`http://206.189.235.2:5000/bloco7/${userData.bloco7}`)
         .then((response) => {
           const receivedData = response.data;
           console.log("DATA: ", receivedData);
@@ -88,7 +88,7 @@ function Tela27() {
             onSubmit={async (values) => {
               const valid = validacoes(tipoLocal, descricaoEvento);
               if (valid == "OK") {
-                const apiUrl = "http://143.198.163.134:5000/bloco7"; // Substitua pelo URL da sua API
+                const apiUrl = "http://206.189.235.2:5000/bloco7"; // Substitua pelo URL da sua API
 
                 const dataToSend = {
                   bloco7_id: formData.bloco7,

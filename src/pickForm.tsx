@@ -33,7 +33,7 @@ const PickForm = () => {
 
   function createPaciente(version: string) {
 
-    const apiUrl = "http://143.198.163.134:5000/paciente";
+    const apiUrl = "http://206.189.235.2:5000/paciente";
 
     axios
       .post(apiUrl,{tipo_morte:""})
@@ -44,7 +44,7 @@ const PickForm = () => {
   };
   
   function populateBloco6(id: string){
-    const apiUrl = "http://143.198.163.134:5000/bloco6";
+    const apiUrl = "http://206.189.235.2:5000/bloco6";
     // TODO
 
     // pegar info dos médicos aqui e só jogar lá com as infos dos outros blocos
@@ -98,7 +98,7 @@ const PickForm = () => {
               htmlType="submit"
               className="login-form-button"
               block
-              href="http://143.198.163.134:4000/" //Colocar rota da versão do Pedro
+              href="http://206.189.235.2:4000/" //Colocar rota da versão do Pedro
             >
               Simulador de DO original
             </Button>
