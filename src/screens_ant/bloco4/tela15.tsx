@@ -50,7 +50,7 @@ function Tela15() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://206.189.235.2:5000/bloco4/${userData.bloco4}`
+          `http://157.245.80.223:5000/bloco4/${userData.bloco4}`
         );
         const data = response.data;
         console.log(data);
@@ -114,7 +114,7 @@ function Tela15() {
                 ocupacaoMaeFalecido
               );
               if (valid == "OK") {
-                const apiUrl = "http://206.189.235.2:5000/bloco4"; // Substitua pelo URL da sua API
+                const apiUrl = "http://157.245.80.223:5000/bloco4"; // Substitua pelo URL da sua API
 
                 const dataToSend = {
                   bloco4_id: formData.bloco4,

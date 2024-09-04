@@ -53,7 +53,7 @@ function Tela3() {
     async function getValues() {
       try {
         const response = await axios.get(
-          `http://206.189.235.2:5000/bloco1/${userData.bloco1}`
+          `http://157.245.80.223:5000/bloco1/${userData.bloco1}`
         );
         const data = response.data;
         setEstadoCivilFalecido(data.estado_civil);
@@ -126,7 +126,7 @@ function Tela3() {
                 formData.tipo_morte
               );
               if (valid == "OK") {
-                const apiUrl = "http://206.189.235.2:5000/bloco1"; // Substitua pelo URL da sua API
+                const apiUrl = "http://157.245.80.223:5000/bloco1"; // Substitua pelo URL da sua API
 
                 let dataToSend;
                 if (formData.tipo_morte === "nao_fetal") {

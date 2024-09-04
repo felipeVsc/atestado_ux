@@ -37,7 +37,7 @@ function TelaListagem() {
 
   // function getPacienteInfo(id_usuario: string) {
 
-  //   const apiUrl = `http://206.189.235.2:5000/paciente/${id_usuario}`;
+  //   const apiUrl = `http://157.245.80.223:5000/paciente/${id_usuario}`;
 
   //   axios
   //     .get(apiUrl)
@@ -95,7 +95,7 @@ function TelaListagem() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://206.189.235.2:5000/paciente/medico/${formData.medico_id}`);
+        const response = await axios.get(`http://157.245.80.223:5000/paciente/medico/${formData.medico_id}`);
         const mappedData = mapearRespostaParaData(response.data);
         setData(mappedData);
       } catch (error) {
